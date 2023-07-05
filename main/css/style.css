@@ -1,0 +1,1016 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Graduate", cursive;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background: #201E1E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger {
+  display: none;
+}
+.burger-img-2 {
+  display: none;
+}
+.burger-img-2 > img {
+  width: 55px;
+  height: 44px;
+}
+
+.container {
+  max-width: 1837px;
+  margin: 0 auto;
+}
+
+.burger-content.visible {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  background: #201E1E;
+  background-size: cover;
+}
+
+.mafia-main a {
+  padding-left: 45px;
+  font-size: 64px;
+  line-height: 73px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.mafia-main a:hover {
+  color: #9E0303;
+}
+
+.k-img {
+  display: none;
+}
+
+.pc {
+  display: block;
+}
+
+.mob {
+  display: none;
+}
+
+.burger-content {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  transition: opacity 1s;
+  position: absolute;
+  left: 0;
+  top: 117px;
+  padding-bottom: 30px;
+}
+.burger-content .mafia-navs-burger > div {
+  padding: 15px 0 0 30px;
+}
+.burger-content .mafia-navs-burger > div a {
+  font-size: 36px;
+  line-height: 41px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.burger-content .mafia-navs-burger > div a:hover{
+  color: #9E0303;
+}
+.burger-content .mafia-navs-burger a > img {
+  padding-left: 6px;
+}
+
+.mafia-navs {
+  display: flex;
+}
+.mafia-navs > div {
+  padding-right: 32px;
+}
+.mafia-navs > div a {
+  font-size: 36px;
+  line-height: 41px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.mafia-navs > div a:hover {
+  color: #9E0303;
+}
+.mafia-navs a > img {
+  padding-left: 6px;
+}
+
+.shop a {
+  display: inline-block;
+  font-size: 64px;
+  line-height: 73px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #9E0303;
+  padding: 22px 45px;
+}
+.shop a:hover {
+  background-color: white;
+  color: #9E0303;
+}
+
+.buy {
+  display: inline-block;
+  border: 6px solid #9E0303;
+  padding: 9px 6px;
+}
+.buy:hover{
+  border-color: white;
+  transition: 0.8s;
+}
+
+.present {
+  background-image: url(../../images/mafia-main-big.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 680px;
+}
+.present p {
+  font-size: 64px;
+  line-height: 73px;
+  color: #FFFFFF;
+  background: #000000;
+  padding: 17px 21px 16px 12px;
+}
+.present .buy {
+  margin-top: 70px;
+}
+.present a {
+  font-size: 36px;
+  line-height: 41px;
+  color: #FFFFFF;
+  background: #9E0303;
+  padding: 6px 2px;
+  text-decoration: none;
+}
+.present .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.present-info {
+  padding-bottom: 200px;
+}
+
+.scroll {
+  background-image: url(../../images/scroll-beg.png);
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
+.scroll .scroll-all-1,
+.scroll .scroll-all-2,
+.scroll .scroll-all-3 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 22px 0;
+}
+.scroll .scroll-all-1 img,
+.scroll .scroll-all-2 img,
+.scroll .scroll-all-3 img {
+  margin-right: 60px;
+}
+.scroll .scroll-all-2,
+.scroll .scroll-all-3 {
+  display: none;
+}
+.scroll .scroll-nav {
+  display: flex;
+  gap: 35px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-90px, -20px);
+}
+.scroll h4 {
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.scroll p {
+  line-height: 21px;
+  color: #FFFFFF;
+  padding: 24px 0 70px;
+}
+.scroll nav > span:hover {
+  cursor: pointer;
+}
+.scroll .dot1,
+.scroll .dot2,
+.scroll .dot3 {
+  cursor: pointer;
+  height: 21px;
+  width: 21px;
+  background-color: #545151;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+.scroll .active {
+  background-color: #9E0303;
+}
+
+.family {
+  background-image: url(../../images/mafia-trilogy.png);
+  background-size: cover;
+  background-position: center;
+}
+.family::after {
+  content: "";
+  background-color: #9E0303;
+  height: 8px;
+  display: block;
+  width: 100%;
+}
+.family .family-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 0 950px;
+}
+.family .family-info p {
+  font-size: 72px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+.family .family-info a {
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 6px solid #9E0303;
+  background: rgba(158, 3, 3, 0.31);
+  padding: 7px 13px 0;
+  margin-left: 80px;
+}
+.family .family-info a:hover {
+  border-color: white;
+  transition: 0.8s;
+}
+
+.m-c::after {
+  content: "";
+  background-color: #9E0303;
+  height: 8px;
+  display: block;
+  width: 100%;
+}
+
+.mafia-cards {
+  background-image: url(../../images/mafia-beg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0 50px;
+}
+.mafia-cards .cards {
+  display: flex;
+  justify-content: space-around;
+}
+.mafia-cards .card-1,
+.mafia-cards .card-2,
+.mafia-cards .card-3 {
+  width: 404px;
+}
+.mafia-cards .card-1 .main,
+.mafia-cards .card-2 .main,
+.mafia-cards .card-3 .main {
+  background: rgba(84, 81, 81, 0.62);
+  height: 620px;
+  margin-bottom: 41px;
+  text-align: left;
+}
+.mafia-cards .line {
+  text-align: center;
+  padding-bottom: 14px;
+}
+.mafia-cards .line::after {
+  content: "";
+  background-color: #9E0303;
+  height: 4px;
+  display: inline-block;
+  width: 233px;
+}
+.mafia-cards .card-1 {
+  text-align: center;
+}
+.mafia-cards .card-1 .main-img {
+  padding: 48px 45px 0;
+}
+.mafia-cards .card-1 .head-p {
+  padding: 23px 34px 0 38px;
+  text-align: center;
+}
+.mafia-cards .card-1 p {
+  padding: 0 6px 43px 15px;
+}
+.mafia-cards .card-2 {
+  text-align: center;
+}
+.mafia-cards .card-2 .main-img {
+  padding: 48px 12px 0;
+}
+.mafia-cards .card-2 .head-p {
+  padding: 23px 36px 0 38px;
+}
+.mafia-cards .card-2 p {
+  padding: 0 8px 47px 17px;
+}
+.mafia-cards .card-3 {
+  text-align: center;
+}
+.mafia-cards .card-3 .main-img {
+  padding: 48px 6px 0;
+}
+.mafia-cards .card-3 .head-p {
+  padding: 29px 89px 0 87px;
+}
+.mafia-cards .card-3 p {
+  padding: 0 20px 74px 21px;
+}
+.mafia-cards p {
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.mafia-cards a {
+  font-size: 36px;
+  line-height: 41px;
+  color: #FFFFFF;
+  background: #9E0303;
+  padding: 6px 2px;
+  text-decoration: none;
+}
+
+.headline-cards {
+  background-image: url(../../images/headlines.png);
+  background-size: cover;
+  background-position: center top;
+}
+.headline-cards::after {
+  content: "";
+  background-color: #9E0303;
+  height: 8px;
+  display: block;
+  width: 100%;
+}
+.headline-cards .dotL1,
+.headline-cards .dotL2,
+.headline-cards .dotL3 {
+  cursor: pointer;
+  height: 21px;
+  width: 21px;
+  background-color: #545151;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+.headline-cards .active {
+  background-color: #9E0303;
+}
+.headline-cards .headline-title {
+  text-align: center;
+}
+.headline-cards .h-card {
+  position: relative;
+  background: #000000;
+  width: 404px;
+  margin-bottom: 226px;
+}
+.headline-cards .h-card-p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  color: #FFFFFF;
+  padding: 4px;
+  background: #9E0303;
+}
+.headline-cards .cards-h {
+  display: flex;
+  justify-content: space-around;
+}
+.headline-cards .scroll-line {
+  display: none;
+  text-align: center;
+}
+.headline-cards h2 {
+  font-size: 64px;
+  line-height: 73px;
+  color: #FFFFFF;
+  background: #000000;
+  margin-top: 41px;
+  display: inline-block;
+}
+.headline-cards h3 {
+  font-size: 36px;
+  line-height: 41px;
+  color: #FFFFFF;
+  padding: 24px 14px 13px 15px;
+}
+.headline-cards p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #6F6565;
+  padding: 0 22px 60px;
+}
+.headline-cards a {
+  font-size: 24px;
+  color: #FFFFFF;
+  background: #9E0303;
+  padding: 6px 2px;
+  text-decoration: none;
+}
+.headline-cards .vct {
+  padding: 15px 0 23px;
+}
+.headline-cards .vct::after {
+  content: "";
+  background-color: #9E0303;
+  height: 6px;
+  display: inline-block;
+  width: 210px;
+}
+.headline-cards .bot-a {
+  text-align: center;
+  padding-bottom: 85px;
+}
+
+.bene::after {
+  content: "";
+  background-color: #9E0303;
+  height: 8px;
+  display: block;
+  width: 100%;
+}
+
+.benefit {
+  background-image: url(../../images/benefits.png);
+  background-size: cover;
+  background-position: center top;
+  padding: 217px 0 210px;
+}
+.benefit .container {
+  display: flex;
+  justify-content: space-around;
+}
+.benefit .a-benefits {
+  padding-top: 40px;
+}
+.benefit .a-benefits > div {
+  margin-right: 110px;
+}
+.benefit h2 {
+  font-size: 64px;
+  color: #FFFFFF;
+  padding-bottom: 34px;
+}
+.benefit p {
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 24px 0 32px;
+}
+.benefit .b-p {
+  display: flex;
+  padding-bottom: 25px;
+}
+.benefit .b-p p {
+  padding: 0 0 0 7px;
+}
+.benefit a {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.benefit .a-1 {
+  background: #9E0303;
+  padding: 6px 8px;
+}
+.benefit .a-2 {
+  background: #000000;
+  opacity: 0.7;
+  padding: 6px 9px;
+}
+.benefit .img-b::after {
+  content: "";
+  background: #9E0303;
+  height: 6px;
+  display: block;
+  width: 307px;
+}
+
+footer {
+  background: #201E1E;
+}
+footer .mafia-logo {
+  padding-top: 64px;
+}
+footer .about-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+footer p {
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+footer nav {
+  padding: 74px 0 39px;
+  max-width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .p-1 {
+  padding: 22px 0 2px;
+}
+footer .p-2 {
+  font-size: 10px;
+  line-height: 11px;
+  color: #6F6565;
+}
+footer .left-footer {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+footer .left-footer > nav a {
+  opacity: 0.5;
+}
+footer .left-footer > nav a:hover {
+  transition: 0.9s;
+  opacity: 1;
+}
+footer .left-footer .left-img {
+  max-width: 424px;
+}
+footer .right-footer nav {
+  padding-bottom: 39px;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .right-footer nav > a {
+  opacity: 0.5;
+}
+footer .right-footer nav > a:hover {
+  transition: 0.9s;
+  opacity: 1;
+}
+footer .vct-footer {
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+footer .vct-footer::after {
+  content: "";
+  background: #685E5E;
+  height: 2px;
+  display: block;
+  width: 730px;
+}
+
+@media (max-width: 1750px) {
+  .container {
+    max-width: 95%;
+  }
+  .family .family-info {
+    padding: 22px 0 750px;
+  }
+}
+@media (max-width: 1440px) {
+  .family .family-info {
+    padding: 22px 0 560px;
+  }
+  .benefit .img-b::after {
+    width: 100%;
+  }
+  .benefit .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefit .left-block {
+    padding-bottom: 25px;
+  }
+  .benefit .a-benefits {
+    display: flex;
+    justify-content: space-around;
+  }
+  .benefit .a-benefits .buy {
+    margin: 0;
+  }
+}
+@media (max-width: 1380px) {
+  footer {
+    text-align: center;
+  }
+  footer .about-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .left-footer {
+    align-items: center;
+  }
+  footer .left-footer nav {
+    gap: 40px;
+    padding: 25px 0 30px;
+  }
+  footer .right-footer > nav {
+    padding: 13px 0 30px;
+  }
+}
+@media (max-width: 1280px) {
+  .headline-cards .cards-h {
+    flex-direction: column;
+    align-items: center;
+  }
+  .headline-cards .h-card {
+    margin-bottom: 47px;
+  }
+  .headline-cards .scroll-line {
+    text-align: center;
+    display: block;
+    padding-bottom: 43px;
+  }
+  .headline-cards .dotL1,
+  .headline-cards .dotL2 {
+    margin-right: 18px;
+  }
+  .mafia-cards {
+    padding: 40px 0 30px;
+  }
+  .mafia-cards .card-1,
+  .mafia-cards .card-2 {
+    margin-bottom: 21px;
+  }
+  .mafia-cards .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mafia-cards .cards .main {
+    text-align: center;
+    margin-bottom: 0;
+    background: none;
+    height: 500px;
+  }
+  .mafia-cards .card-1,
+  .mafia-cards .card-2,
+  .mafia-cards .card-3 {
+    background: rgba(84, 81, 81, 0.62);
+    width: 45%;
+  }
+  .mafia-cards .buy {
+    margin-bottom: 15px;
+  }
+  .mafia-cards .main-img {
+    display: block;
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  .mafia-cards .head-p {
+    text-align: center;
+  }
+  .mafia-cards .line {
+    padding: 13px 0 19px;
+  }
+  .h-card-2,
+  .h-card-3 {
+    display: none;
+  }
+}
+@media (max-width: 1220px) {
+  .present {
+    text-align: center;
+  }
+  .present .p-info {
+    padding-bottom: 10px;
+  }
+  .present .p-info > p {
+    display: inline-block;
+  }
+  .present .buy {
+    margin-top: 0;
+    margin-bottom: 21px;
+    display: inline-block;
+  }
+  .present .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .present .present-info {
+    padding-bottom: 0;
+  }
+  .present img {
+    padding-bottom: 14px;
+  }
+  .family .family-info {
+    flex-direction: column-reverse;
+  }
+  .family .family-info a {
+    margin-left: 0;
+  }
+  .family-info-a {
+    margin: 16px 0 8px;
+  }
+}
+@media (max-width: 1060px) {
+  .burger {
+    display: inline-block;
+    padding-left: 30px;
+  }
+  .burger > img:hover {
+    cursor: pointer;
+  }
+  .mafia-navs {
+    display: none;
+  }
+  .menu-main {
+    display: flex;
+    align-items: center;
+  }
+  .mafia-main a {
+    padding-left: 20px;
+  }
+  .mafia-cards .card-1,
+  .mafia-cards .card-2,
+  .mafia-cards .card-3 {
+    width: 60%;
+  }
+  .family .family-info {
+    padding: 22px 0 400px;
+  }
+  .family .family-info p {
+    font-size: 30px;
+  }
+}
+@media (max-width: 920px) {
+  .present {
+    padding-top: 540px;
+  }
+  .present img {
+    width: 400px;
+    height: 180px;
+  }
+  .present-info p {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .present a {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .mafia-cards .cards .main {
+    height: 480px;
+  }
+  .mafia-cards .card-1,
+  .mafia-cards .card-2,
+  .mafia-cards .card-3 {
+    width: 80%;
+  }
+}
+@media (max-width: 740px) {
+  .present {
+    padding-top: 270px;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #f8ddbc;
+  }
+  .family .family-info {
+    padding: 22px 0 300px;
+  }
+  footer .vct-footer::after {
+    width: 400px;
+  }
+  .mafia-cards .cards .main {
+    height: 500px;
+  }
+  .mafia-cards .card-1,
+  .mafia-cards .card-2,
+  .mafia-cards .card-3 {
+    width: 80%;
+  }
+  .scroll-text {
+    max-width: 95%;
+    margin: auto;
+  }
+  .scroll .pc {
+    margin-right: 30px;
+  }
+  .scroll .scroll-nav {
+    left: 100%;
+    transform: translateX(-330px);
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 660px) {
+  .header .mafia-main a {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .header .shop a {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .header .burger-img,
+  .header .burger-img-2 {
+    width: 44px;
+    height: 35px;
+  }
+  .header .burger-content {
+    top: 97px;
+  }
+  .present {
+    padding-top: 240px;
+  }
+  .present img {
+    width: 300px;
+    height: 150px;
+  }
+  .present-info p {
+    font-size: 34px;
+    line-height: 43px;
+  }
+  .present a {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .mafia-cards .cards p {
+    font-size: 22px;
+    line-height: 23px;
+  }
+  .mafia-cards .head-p {
+    padding: 0;
+  }
+}
+@media (max-width: 570px) {
+  .burger-content .mafia-navs-burger > div a {
+    font-size: 26px;
+  }
+  .burger-content .img-burg {
+    width: 19px;
+    height: 23px;
+  }
+  .burger-content .img-burg-2 {
+    width: 27px;
+    height: 29px;
+  }
+  .shop a {
+    padding: 15px 30px;
+  }
+  .header .mafia-main a,
+  .header .shop a {
+    font-size: 35px;
+  }
+  .header .burger-content {
+    top: 83px;
+  }
+  .scroll p {
+    padding: 24px 0 0;
+  }
+  .scroll h4 {
+    font-size: 28px;
+  }
+  .scroll .scroll-all-1,
+  .scroll .scroll-all-2,
+  .scroll .scroll-all-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .scroll .scroll-all-1 > div:last-of-type,
+  .scroll .scroll-all-2 > div:last-of-type,
+  .scroll .scroll-all-3 > div:last-of-type {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .scroll .scroll-all-1 img,
+  .scroll .scroll-all-2 img,
+  .scroll .scroll-all-3 img {
+    margin-right: 0;
+  }
+  .scroll .scroll-nav {
+    text-align: center;
+    position: static;
+    transform: none;
+    width: 150px;
+    margin: auto;
+  }
+  .family .family-info {
+    padding: 22px 0 250px;
+  }
+  .mafia-cards .cards p {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .mafia-cards .cards .main {
+    height: 450px;
+  }
+  .benefit h2 {
+    font-size: 50px;
+  }
+  .benefit p {
+    font-size: 15px;
+  }
+  .benefit a {
+    font-size: 15px;
+  }
+  footer .mafia-logo {
+    width: 70%;
+  }
+  footer p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  footer .p-2 {
+    font-size: 8px;
+    line-height: 10px;
+    width: 350px;
+  }
+  .benefit {
+    padding: 100px 0 100px;
+  }
+}
+@media (max-width: 435px) {
+  .family .family-info {
+    padding: 22px 0 180px;
+  }
+  footer .left-footer nav {
+    gap: 20px;
+  }
+  .headline-cards .h-card {
+    width: 360px;
+  }
+  .headline-cards .h-card img {
+    width: 360px;
+  }
+  .present-info p {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .family .family-info p {
+    font-size: 25px;
+  }
+  .mafia-cards .cards .main {
+    height: 470px;
+  }
+  .mafia-cards a {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .mafia-cards .main-img {
+    margin-bottom: 0;
+  }
+  .mafia-cards .card-1 .main-img {
+    padding: 30px 35px;
+  }
+  .mafia-cards .card-1 .head-p {
+    padding: 0;
+  }
+  .mafia-cards .card-2 .main-img {
+    padding: 30px 35px;
+  }
+  .mafia-cards .card-2 .head-p {
+    padding: 0 25px 0 30px;
+  }
+  .mafia-cards .card-3 .main-img {
+    padding: 30px 35px;
+  }
+  .mafia-cards .card-3 .head-p {
+    padding: 0 25px 0 30px;
+  }
+  .headline-cards h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  footer p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  footer .p-2 {
+    font-size: 7px;
+    line-height: 9px;
+  }
+  footer .left-img {
+    display: none;
+  }
+  footer .k-img {
+    display: block;
+    width: 300px;
+    height: 120px;
+  }
+}/*# sourceMappingURL=style.css.map */

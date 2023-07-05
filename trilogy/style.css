@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Graduate', cursive;
+    font-size: 36px;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+body {
+    background-image: linear-gradient(to top, #0c0c0cc4, #121212d9), url(../images/mainTheme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: #fff;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.nanigation {
+    background: #201E1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 3.2em;
+}
+.shop{display: none;}
+
+
+.mafia-main a {
+    padding-left: 1.25em;
+    font-size: 1.77em;
+    line-height: 73px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.burger{
+    position: absolute;
+    left: 0.3em;
+    top: 1.03em;
+}
+
+.mafia-navs {
+    display: flex;
+}
+
+.mafia-navs>div {
+    padding-right: 32px;
+}
+
+.mafia-navs>div a {
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.mafia-navs a>img {
+    padding-left: 6px;
+}
+
+.shop a {
+    display: inline-block;
+    font-size: 64px;
+    line-height: 73px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #9E0303;
+    padding: 22px 45px;
+}
+
+
+
+.mafMain {
+    margin-top: 148px;
+    margin-bottom: 50px;
+}
+
+.mafMain::after {
+    content: "";
+    height: 3px;
+    margin-top: 2em;
+    margin-bottom: 5.16em;
+    display: block;
+    background-color: #9E0303;
+}
+
+.mafMain h1 {
+    font-size: 96px;
+    text-align: center;
+}
+
+.mafMain h1::after {
+    content: "";
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 175px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    display: block;
+    min-width: 450px;
+    max-width: 475px;
+    background-color: #9E0303;
+}
+
+
+
+.selectedVersion h3 {
+    font-size: 1em;
+    color: #9E0303;
+    margin-bottom: 0.95em;
+}
+
+.selectedVersion h2 {
+    text-transform: uppercase;
+    margin-bottom: 1.2em;
+    font-size: 2em;
+}
+
+.selectedVersion p {
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.confirmOffer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBlock {
+    width: 50%;
+}
+
+.rightBlock {
+    width: 40%;
+}
+
+
+
+.choose {
+    width: 100%;
+    background-color: transparent;
+    border: 0.12em solid #fff;
+    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+select {
+    height: 1.9em;
+    color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: hsla(0, 0%, 100%, .15);
+    background-image: linear-gradient(to top right, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 50%, #fff 0, #fff), linear-gradient(to top left, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 50%, #fff 0, #fff);
+    background-size: 5px 8px, 5px 8px;
+    background-repeat: no-repeat;
+    background-position: right 17px center, right 12px center;
+}
+
+option {
+    color: black;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.8em;
+}
+
+.selectControl {
+    width: 90%;
+    margin-top: 1.25em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectControl button {
+    width: 1.95em;
+    height: 1.95em;
+    border: 4px solid #6F6565;
+    cursor: pointer;
+}
+
+.active-control {
+    background-color: #fff;
+}
+
+
+.selectControl button img {
+    max-width: 70%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+.chooseVersion {
+    width: 105%;
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.chooseVersion button {
+    position: relative;
+    text-transform: uppercase;
+    color: #6F6565;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    border: 0.12em solid #6F6565;
+    width: 6.25em;
+    height: 2em;
+    padding: 0.33em;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow {
+    position: absolute;
+    width: 0.6em;
+    height: 0.6em;
+    rotate: 45deg;
+    border-right: 0.12em solid #6F6565;
+    border-bottom: 0.12em solid #6F6565;
+    background-color: #232323;
+    z-index: 30;
+    right: 50%;
+    bottom: -0.37em;
+    display: none;
+}
+.chooseVersion .active {
+    color: #9E0303;
+}
+
+.chooseVersion button.activeAr .arrow{
+    display: block;
+
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+.buy {
+    
+    height: 2em;
+    margin-bottom: 1.5em;
+}
+.buy-button{
+    display: inline-block;
+    padding: 0.12em;
+    border: 0.12em solid #9E0303;
+    width: 105%;
+}
+
+.buy button {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #9E0303;
+    width: 100%;
+    height: 100%;
+    padding: 0.33em;
+    cursor: pointer;
+
+}
+
+.retailers h3 {
+    text-align: center;
+    font-size: 0.7em;
+    color: #9E0303;
+}
+
+.retailers h3::after {
+    content: "";
+    height: 3px;
+    margin-top: 0.6em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    min-width: 6em;
+    max-width: 6.02em;
+    background-color: #9E0303;
+}
+
+
+
+.choosEpisode{
+    display: flex;
+    justify-content: space-between;
+    margin: 0em 1.7em;
+    margin-bottom: 1em;
+}
+
+.choosEpisode h3{
+    min-height: 2.277em;
+}
+.choosEpisode > div{
+    width: 32%;
+    background-color: #000;
+    font-size: 0.66em;
+    text-align: center;
+    padding: 0.55em 1.2em;
+}
+
+.choosEpisode div img{
+    margin-top: 0.55em;
+    margin-bottom: 1.75em;
+}
+
+.choosEpisode li{
+    font-size: 0.38em;
+    padding-bottom: 1.9em;
+    padding-top: 0.3em;
+    text-align: left;
+    background-image: url(../images/check.svg);
+    background-repeat: no-repeat;
+    padding-left: 2.7em;
+}
+.choosEpisode ul{
+    list-style: none;
+    
+}
+
+.buy-btn {
+    height: 2em;
+    margin-bottom: 1.9em;
+    margin-top: 2.3em;
+}
+
+.buy-btn button {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #9E0303;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.buy-inside{
+    display: inline-block;
+    padding: 0.12em;
+    border: 0.12em solid #9E0303;
+    width: 5.5em;
+}
+.buy-inside a{
+    background-color: #9E0303;
+    text-decoration: none;
+    padding: 2px 3px;
+    color: white;
+}
+
+main::after {
+    content: "";
+    height: 3px;
+    margin-top: 1em;
+    display: block;
+    background-color: #9E0303;
+    width: 100%;
+}
+
+
+
+.companys {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside {
+    width: 55%;
+}
+
+.rightside {
+    width: 35%;
+}
+
+.contact-us{
+    max-width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.information p{
+    color: #6F6565;
+    font-size: 0.27em;
+    text-transform: uppercase;
+    max-width: 60%;
+}
+
+
+footer{
+    margin-bottom: 2em;
+}
+.wolf{
+    margin-bottom: 0.7em;
+}
+.information h3{
+    font-size: 0.66em;
+    font-weight: 400;
+}
+.information h4{
+    font-size: 0.66em;
+    font-weight: 400;
+}
+
+.information h4::after{
+    content: "";
+    height: 2px;
+    margin-top: 0.16em;
+    margin-bottom: 0.16em;
+    display: block;
+    background-color: #685E5E;
+}
+
+
+.actualPlatforms{
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightside{
+    margin-top: 5em;
+}
+
+
+#epic{
+    background-image: url(../images/epic-games.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center center;
+}
+#steam{
+    background-image: url(../images/steam.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center center;
+}
+#ps{
+    background-image: url(../images/playStation.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center center;
+}
+#xbox{
+    background-image: url(../images/x-box.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center center;
+}
+
+@media (max-width: 440px){
+    .mafia-navs{
+        display: none;
+    }
+    .mafia-main{
+        width: 60%;
+        font-size: 1em;
+    }
+    .mafia-main a{
+        font-size: 1em;
+    }
+    .shop a{
+        font-size: 0.66em;
+        padding: 18px 20px;
+    }
+    .mafMain{
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    .burger img{
+        height: 1em;
+        width: 0.66em;
+        background-repeat: no-repeat;
+    }
+    
+    .mafMain h1{
+        display: none;
+    }
+    .selectedVersion h2{
+        font-size: 0.66em;
+        text-align: center;
+    }
+    .selectedVersion h3{
+        font-size: 0.5em;
+        text-align: center;
+    }
+    .selectedVersion p{
+        font-size: 0.38em;
+        text-align: center;
+    }
+
+    .confirmOffer {
+        display: block;
+    }
+    
+    .leftBlock {
+        width: 100%;
+    }
+    
+    .rightBlock {
+        margin-top: 1.25em;
+        width: 100%;
+    }
+    .selectControl{
+        width: 100%;
+        margin-top: 0.66em;
+    }
+    
+    .buy{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.22em;
+    }
+    .buy-button{
+        width: 100%;
+        font-size: 0.66em;
+    }
+    .chooseVersion button{
+        font-size: 0.5em;
+        height: 3em;
+        border: 4px solid #6F6565;
+    }
+    .chooseVersion{
+        width: 100%;
+        margin-top: 0.66em;
+        margin-bottom: 1em;
+    }
+    #physical{
+        width: 48%;
+    }
+    #digital{
+        width: 48%;
+    }
+    option{
+        font-size: 0.5em;
+    }
+    .retailers h3{
+        font-size: 0.39em;
+        font-weight: 400;
+    }
+    .retailers h3::after{
+        height: 2px;
+    }
+    .mafMain::after{
+        margin-top: 0.8em;
+        height: 2px;
+        margin-bottom: 0;
+    }
+    .choosEpisode{
+        display: block;
+        margin: auto;
+        max-width: 90%;
+    }
+    .choosEpisode > div{
+        width: 100%;
+        margin-top: 2.92em;
+    }
+    .choosEpisode h3{
+        font-size: 0.66em;
+        font-weight: 300;
+        min-height: auto;
+    }
+    .choosEpisode li{
+        text-align: center;
+        font-size: 0.33em;
+    }
+    .choosEpisode .left{
+        margin-top: 1.25em;
+    }
+    .buy-btn{
+        height: auto;
+        margin-bottom: 0.53em;
+    }
+    .buy-inside{
+        font-size: 20px;
+    }
+    .buy-inside a{
+        font-size: 18px;
+    }
+    .companys{
+        display: block;
+        text-align: center;
+        margin-top: 1.35em;
+    }
+    .leftside{
+        width: 100%;
+        
+    }
+    .rightside{
+        width: 100%;
+    }
+    .logo img{
+        width: 3.42em;
+    }
+    .contact-us{
+        max-width: 40%;
+        margin: auto;
+        margin-top: 0.29em;
+    }
+    .contact-us img{
+        width: 0.7em;
+        height: 0.7em;
+    }
+    .wolf{
+        margin-top: 0.87em;
+        margin-bottom: 0.16em;
+    }
+    .wolf img{
+        height: 2em;
+    }
+    .information h3 {
+        font-size: 0.28em;
+    }
+    .information h4 {
+        font-size: 0.28em;
+    }
+    .information p {
+        font-size: 0.18em;
+        max-width: 90%;
+        margin: auto;
+    }
+    .rightside {
+        margin-top: 0.33em;
+    }
+    .actualPlatforms {
+        max-width: 80%;
+        margin: auto;
+    }
+    .actualPlatforms img{
+        width: 1em;
+        height: 1em;
+    }
+    .pegi{    
+        margin: auto;
+        margin-top: 0.8em;
+        max-width: 66%;
+    }
+    footer {
+        margin-bottom: 1.25em;
+    }
+    .arrow {
+        width: 0.6em;
+        height: 0.6em;
+        z-index: 30;
+        right: 42%;
+        bottom: -0.37em;
+    }
+}
