@@ -1,0 +1,1241 @@
+    *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+
+    body{
+        background-color: black;
+    }
+
+
+    header{
+        display: flex;
+        width: 100%;
+        height: 117px;
+        background-color: #201E1E;
+    }
+
+
+    .menu-in-header{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 4.55%;
+        height: 117px;
+    }
+
+
+    .menu-1{
+        width: 53px;
+        height: 9px;
+        background-color: #9E0303;
+    }
+
+    .menu-2{
+        width: 53px;
+        height: 9px;
+        background-color: #9E0303;
+    }
+
+    .menu-3{
+        width: 53px;
+        height: 9px;
+        background-color: #9E0303;
+    }
+
+    .menu-in-header a{
+        width: 60px;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .actual-name{
+        color: white;
+        font-family: 'Graduate';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 64px;
+    }
+
+    .actual-name :hover{
+        color: #9E0303;
+    }
+
+
+    .name-of-site{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16.2%;
+    }
+
+
+    .name-of-site a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .main-all-of-mafia{
+        width: 35.58%;
+        height: 70px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .all-of-mafia{
+        width: 464px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .all-of-mafia a{
+        text-decoration: none;
+        color: white;
+        font-size: 36px;
+        font-family: 'Graduate';
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .mafia :hover{
+        color: #9E0303;
+    }
+
+    .mafia-2 :hover{
+        color: #9E0303;
+    }
+
+    .mafia-3 :hover{
+        color: #9E0303;
+    }
+
+    .mafia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 117px;
+        height: 41px;
+    }
+
+
+    .mafia a{
+        width: 117px;
+        height: 41px;
+        font-size: 36px;
+    }
+
+
+    .mafia-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 140px;
+    }
+
+    
+    .mafia-2-lines{
+        width: 18px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+
+    .m2-line1{
+        width: 6px;
+        height: 33px;
+        background-color: #9E0303;
+    }
+
+
+    .m2-line2{
+        width: 6px;
+        height: 33px;
+        background-color: #9E0303;
+    }
+
+
+    .mafia-2 a{
+        width: 140px;
+        font-size: 36px;
+    }
+
+
+
+    .mafia-3{
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        width: 156px;
+    }
+
+
+
+    .mafia-3 a{
+        width: 156px;
+        font-size: 36px;
+    }
+
+
+    .mafia-3-lines{
+        width: 34px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+
+    .m3-line1{
+        width: 6px;
+        height: 33px;
+        background-color: #9E0303;
+    }
+
+
+    .m3-line2{
+        width: 6px;
+        height: 33px;
+        background-color: #9E0303;
+    }
+
+
+    .m3-line3{
+        width: 6px;
+        height: 33px;
+        background-color: #9E0303;
+    }
+
+
+    .button a{
+        text-decoration: none;
+        width: 261px;
+        height: 117px;
+    }
+
+
+    .text-in-button p{
+        font-family: 'Graduate';
+        font-size: 64px;
+        color: white;
+        width: 261px;
+        height: 117px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .text-in-button p:hover{
+        color: #9E0303;
+    }
+
+
+    .button-shop{
+        width: 261px;
+        height: 117px;
+        background-color: #9E0303;
+    }
+
+
+    .button-shop:hover{
+        background-color: white;
+    }
+
+
+    .text-in-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 261px;
+        height: 117px;
+
+    }
+
+
+    .button{
+        height: 117px;
+        width: 44.5%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+
+    main{
+        width: 100%;
+    }
+
+
+
+    .background-of-face{
+        background-image: url(../img/Rectangle\ 1\ \(1\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 1022px;
+    }
+
+
+
+
+    .logo-of-page{
+        display: flex;
+        align-items: end;
+        height: 535px;
+        padding-left: 48px;
+    }
+
+
+
+    .special-text-1 p{
+        font-family: 'Graduate';
+        color: white;
+        font-size: 64px;
+    }
+
+
+
+    .special-text-1{
+        width: 619px;
+        height: 106px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .important-special-text-1{
+        height: 140px;
+        display: flex;
+        align-items: end;
+        padding-left: 84px;
+    }
+
+
+
+
+    .buy-now{
+        font-family: 'Graduate';
+        color: white;
+        font-size: 36px;
+        background-color: #9E0303;
+        width: 179px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .buy-square{
+        width: 195px;
+        height: 69px;
+        border: #9E0303 6px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .buy-square:hover{
+        border: white 6px solid;
+    }
+
+
+    .functional a{
+        text-decoration: none;
+    }
+
+
+    .functional{
+        display: flex;
+        height: 111px;
+        padding-left: 84px;
+        align-items: end;
+
+    }
+
+
+
+
+    .biggest-picture{
+        background-image: url(../img/Rectangle\ 26\ \(2\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 58.06%;
+        height: 691px;
+        
+    }
+
+
+
+    .biggest-picture-name p{
+        font-family: 'Graduate';
+        font-size: 36px;
+        color: white;
+    }
+
+
+
+    .biggest-picture-name{
+        height: 253px;
+        display: flex;
+        align-items: end;
+        padding-left: 8px;
+    }
+
+
+
+
+    .red-line-big-pic{
+        height: 29px;
+        display: flex;
+        align-items: end;
+        padding-left: 8px;
+    }
+
+    .line-bp{
+        width: 245px;
+        height: 4px;
+        background-color: #9E0303;
+    }
+
+
+
+    .description-of-biggest-picture{
+        height: 145px;
+        padding-left: 4px;
+        display: flex;
+        align-items: end;
+    }
+
+
+    .description-of-biggest-picture p{
+        font-family: 'Asul';
+        font-size: 24px;
+        color: white;
+        font-weight: 400;
+        width: 100%;
+    }
+
+
+
+    .smaller-picture{
+        background-image: url(../img/Rectangle\ 27\ \(2\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 41.94%;
+        height: 691px;
+        padding-left: 26px;
+    }
+
+
+
+
+    .red-smaller-text p{
+        color: #9E0303;
+        font-family: 'Graduate';
+        font-size: 24px;
+    }
+
+
+
+    .red-smaller-text{
+        height: 105px;
+        display: flex;
+        align-items: end;
+    }
+
+
+
+    .smaller-picture-name p{
+        color: white;
+        font-family: 'Graduate';
+        font-size: 36px;
+    }
+
+
+    .smaller-picture-name{
+        height: 51px;
+        display: flex;
+        align-items: end;
+    }
+
+
+    .red-line-small-picture{
+        display: flex;
+        align-items: center;
+        height: 20px;
+    }
+
+    .red-line-sm-pic{
+        width: 134px;
+        height: 4px;
+        background-color: #9E0303;
+    }
+
+
+
+
+    .description-of-smaller-picture p{
+        font-family: 'Asul';
+        font-size: 24px;
+        color: white;
+        font-weight: 400;
+        width: 355px;
+    }
+
+
+
+    .description-of-smaller-picture{
+        height: 261px;
+        display: flex;
+        align-items: end;
+    }
+
+
+
+
+    .block-of-pictures{
+        width: 100%;
+        display: flex;
+    }
+
+
+
+    .game-features{
+        width: 100%;
+        height: 557px;
+        background-image: url(../Rectangle\ 28.png);
+    }
+
+
+
+    .game-features-text{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        height: 98px;
+    }
+
+
+    .game-features-text p{
+        color: #201E1E;
+        font-size: 64px;
+        font-family: 'Graduate';
+        font-weight: 400;
+    }
+
+
+    .gf-line{
+        height: 4px;
+        width: 233px;
+        background-color: #9E0303;
+    }
+
+
+
+    .game-features-line{
+        width: 100%;
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+
+
+    .game-features-images-in{
+        width: 1169px;
+        height: 254px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .game-features-images-in img{
+        transition: 1s;
+    }
+
+    .game-features-images-in img:hover{
+        transform: scale(1.2);
+    }
+
+    .game-features-images{
+        width: 100%;
+        height: 303px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+
+
+
+    .red-line-1{
+        background-color: #9E0303;
+        width: 100%;
+        height: 5px;
+
+    }
+
+
+
+    .red-line-2{
+        background-color: #9E0303;
+        width: 100%;
+        height: 5px;
+    }
+
+
+
+    .media{
+        background-color: #201E1E;
+        width: 100%;
+        height: 885px;
+    }
+
+
+
+
+    .media-text p{
+        font-family: 'Graduate';
+        font-size: 64px;
+        font-weight: 400;
+        color: white;
+    }
+
+
+
+    .media-text{
+        width: 100%;
+        height: 136px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+
+
+
+    .actual-red-underline{
+        background-color: #9E0303;
+        height: 4px;
+        width: 233px;
+    }
+
+
+
+    .media-underline{
+        width: 100%;
+        height: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+
+
+    .media-pictures-part-1{
+        width: 1359px;
+        height: 277px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .media-pictures-part-1 img{
+        transition: 1s;
+    }
+
+    .media-pictures-part-1 img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .media-pictures-part-2 img{
+        transition: 1s;
+    }
+
+    .media-pictures-part-2 img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .media-pictures-1{
+        width: 100%;
+        height: 316px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+
+    .media-pictures-part-2{
+        width: 1359px;
+        height: 277px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .media-pictures-2{
+        width: 100%;
+        height: 329px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+
+    .k2-account-benefits{
+        width: 100%;
+        height: 885px;
+        background-image: url(../Rectangle\ 21.png);
+    }
+
+
+    .center-block-2k-ab{
+        width: 95.63%;
+        height: 424px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .k2-account-benefits2{
+        width: 100%;
+        height: 641px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+
+    .name-ab p{
+        font-size: 64px;
+        font-family: 'Graduate';
+        color: white;
+        font-weight: 400;
+    }
+
+
+    .red-line-ab2{
+        background-color: #9E0303;
+        width: 307px;
+        height: 6px;
+    }
+
+
+    .desc-ab p{
+        color: white;
+        font-size: 18px;
+        font-family: 'Graduate';
+        font-weight: 400;
+    }
+
+
+    .circle-ab1-mafia p{
+        color: white;
+        font-weight: 400;
+        font-family: 'Graduate';
+        font-size: 18px;
+    }
+
+    .circle-ab2-mafia p{
+        color: white;
+        font-weight: 400;
+        font-family: 'Graduate';
+        font-size: 18px;
+    }
+
+    .circle-ab3-mafia p{
+        color: white;
+        font-weight: 400;
+        font-family: 'Graduate';
+        font-size: 18px;
+    }
+
+
+    .center-ab1{
+        height: 424px;
+    }
+
+
+    .red-line-ab{
+        height: 36px;
+        display: flex;
+        align-items: end;
+    }
+
+
+    .desc-ab{
+        height: 51px;
+        display: flex;
+        align-items: end;
+    }
+
+
+    .part-1{
+        height: 51px;
+        width: 588px;
+        display: flex;
+        gap: 8px;
+        align-items: end;
+    }
+
+
+    .circle-ab1-mafia :hover{
+        color: #9E0303;
+    }
+
+
+    .circle-ab2-mafia :hover{
+        color: #9E0303;
+    }
+
+
+    .circle-ab3-mafia :hover{
+        color: #9E0303;
+    }
+
+
+    .part-2{
+        height: 56px;
+        width: 480;
+        display: flex;
+        gap: 8px;
+        align-items: end;
+    }
+
+
+
+    .part-3{
+        height: 67px;
+        width: 724px;
+        display: flex;
+        gap: 8px;
+        align-items: end;
+    }
+
+
+
+    .more-news{
+        font-family: 'Graduate';
+        color: white;
+        font-size: 24px;
+        background-color: #9E0303;
+        width: 167px;
+        height: 49px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .more-square{
+        width: 195px;
+        height: 69px;
+        border: #9E0303 6px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .more-square:hover{
+        border: white 6px solid;
+    }
+
+
+    .learn-square:hover{
+        border: white 6px solid;
+    }
+
+
+    .learn-more:hover{
+        background-color: rgb(0, 0, 0);
+    }
+
+
+    .learn-more{
+        background-color: rgba(0, 0, 0, 0.622);
+        width: 167px;
+        height: 49px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .learn-more p{
+        font-family: 'Graduate';
+        color: white;
+        font-size: 24px;
+    }
+
+
+    .learn-square{
+        width: 195px;
+        height: 69px;
+        border: #9E0303 6px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .more-or-learn{
+        display: flex;
+        justify-content: space-between;
+        width: 510px;
+    }
+
+
+    .more-or-learn a{
+        text-decoration: none;
+    }
+
+
+    .functional2{
+        display: flex;
+        align-items: end;
+        height: 118px;
+        padding-left: 52px;
+    }
+
+
+    .red-line-after-2k{
+        width: 100%;
+        height: 6px;
+        background-color: #9E0303;
+    }
+
+    .big-black-block{
+        width: 100%;
+        height: 157px;
+        background-color: #201E1E;
+    }
+
+
+    .red-line-after-bbb{
+        width: 100%;
+        height: 6px;
+        background-color: #9E0303;
+    }
+
+
+
+    .triology-bonuses{
+        background-image: url(../Rectangle\ 38.png);
+        width: 100%;
+        height: 777px;
+    }
+
+
+    .mafia-tb p{
+        font-family: 'Graduate';
+        color: black;
+        font-weight: 400;
+        font-size: 64px;
+    }
+
+
+    .mafia-tb{
+        width: 100%;
+        height: 104px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .rl-tb{
+        width: 233px;
+        height: 4px;
+        background-color: #9E0303;
+    }
+
+
+    .red-line-tb{
+        width: 100%;
+        height: 29px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+
+    .images-tb-in{
+        width: 91.27%;
+        height: 349px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .images-tb-in img{
+        transition: 1s;
+    }
+
+    .images-tb-in img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .images-tb{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        height: 416px;
+    }
+
+
+
+    .part-tb-1 p{
+        font-weight: 400;
+        font-family: 'Graduate';
+        color: black;
+        font-size: 64px;
+    }
+
+    .part-tb-1{
+        height: 100px;
+        display: flex;
+        padding-left: 63px;
+        align-items: end;
+    }
+
+    .edition p{
+        font-weight: 400;
+        font-family: 'Graduate';
+        font-size: 64px;
+        color: black;
+    }
+
+    .edition{
+        width: 330px;
+        padding-left: 63px;
+    }
+
+    .part-tb-2{
+        display: flex;
+        justify-content: space-between;
+        height: 110.8px;
+    }
+
+
+    .e-r-d{
+        background-color: #9E0303;
+        width: 233px;
+        height: 4px;
+    }
+
+    .edition-red-line{
+        width: 296px;
+        height: 15px;
+        display: flex;
+        align-items: end;
+        padding-left: 63px;
+    }
+
+
+    .links-to-in{
+        width: 290px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .links-to-in img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .links-to{
+        width: 505px;
+        height: 110.8px;
+        display: flex;
+        align-items: end;
+    }
+
+    .the-last-red-line{
+        width: 100%;
+        height: 6px;
+        background-color: #9E0303;
+    }
+
+
+    footer{
+        width: 100%;
+        height: 756px;
+        background-color: #201E1E;
+        padding-left: 51px;
+    }
+
+
+    .footer-container{
+        width: 91.33%;
+        height: 756px;
+        display: flex;
+    }
+
+
+    .footer-mafia{
+        height: 164px;
+        display: flex;
+        align-items: end;
+    }
+
+
+
+    .black-links{
+        height: 149px;
+        display: flex;
+        align-items: end;
+    }
+
+    
+    .black-links-2{
+        width: 424px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .black-links-2 img{
+        opacity: 0.6;
+    }
+
+
+    .black-links-2 img:hover{
+        opacity: 1;
+    }
+
+
+    .bottom-logos{
+        height: 196px;
+        display: flex;
+        align-items: end;
+    }
+
+
+    .lt-part1{
+        color: white;
+        font-family: 'Graduate';
+        font-size: 24px;
+        width: 700px;
+        height: 79px;
+        display: flex;
+        align-items: end;
+    }
+
+
+    .lt-part2{
+        color: white;
+        font-family: 'Graduate';
+        font-size: 24px;
+    }
+
+
+
+    .gr-l{
+        background-color: #685E5E;
+        width: 722px;
+        height: 2px;
+    }
+
+
+
+
+
+    .gray-line{
+        height: 13px;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .desc-grey p{
+        color: #685E5E;
+        font-family: 'Graduate';
+        font-size: 10px;
+    }
+
+    .desc-grey{
+        width: 391px;
+    }
+
+
+
+    .footer-2{
+        width: 618.9px;
+    }
+
+
+    .gr-l-in{
+        width: 508px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .gr-l-in img{
+        opacity: 0.6;
+    }
+
+
+    .gr-l-in img:hover{
+        opacity: 1;
+    }
+
+    .grey-links-2{
+        width: 618.9px;
+        height: 280px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+
+
+
+    .last-pic-white{
+        height: 340px;
+        width: 618.9px;
+        align-items: end;
+        justify-content: end;
+        display: flex;
+    }
+
+
+    .center-ab1 a{
+        text-decoration: none;
+    }
