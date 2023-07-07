@@ -1,0 +1,303 @@
+header {
+    width: 100%;
+    background-color: #201E1E;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 36px;
+    margin-top: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.second {
+    margin-left: 6%;
+}
+
+.Mafia{
+    text-decoration: none;
+    color: white;
+}
+
+.third {
+    margin-left: 12%;
+}
+
+.First {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 73px;
+}
+
+.First p {
+    margin-top: 8%;
+}
+
+.First a {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.Shop {
+    background-color: #9E0303;
+    color: white;
+    text-decoration: none;
+    font-size: 64px;
+    padding: 2%;
+}
+
+main {
+    width: 100%;
+    font-family: 'Graduate', cursive;
+}
+
+.head {
+    padding-top: 797px;
+    background-image: url('images/background.png');
+    background-size: cover;
+}
+
+.H1 {
+    position: absolute;
+    top: 575px;
+    background-color: black;
+    width: 64%;
+    color: white;
+    font-size: 64px;
+    margin-left: 9%;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Asul', sans-serif;
+}
+
+.one {
+    width: 64%;
+    background-color: #FFE6C0;
+
+}
+
+.sharee {
+    display: flex;
+    flex-direction: row;
+}
+
+.share {
+    color: #9E0303;
+    font-size: 24px;
+    margin-left: 3%;
+    margin-top: 51px;
+    font-family: 'Graduate', cursive;
+}
+
+.container {
+    margin-left: 7%;
+}
+
+.last {
+    width: 36%;
+    background-color: #171515;
+}
+
+.facebook {
+    width: 24px;
+    margin-top: 26px;
+    margin-left: 35px;
+}
+
+.Twitter {
+    margin-top: 26px;
+    margin-left: 35px;
+}
+
+h2 {
+    margin-top: 54px;
+    font-size: 24px;
+    width: 79%;
+    margin-left: 4%;
+    font-family: 'Graduate', cursive;
+}
+
+.horizontal {
+    border: #9E0303 solid 1px;
+    margin-left: 2%;
+    width: 19%;
+    margin-top: 33px;
+}
+
+.t {
+    margin-top: 38px;
+    font-family: 'Graduate', cursive;
+}
+
+.big_text {
+    margin-top: 76px;
+    width: 87%;
+    font-size: 20px;
+}
+
+.firstpic {
+    margin-top: 51px;
+    width: 85%;
+}
+
+.firstH {
+    font-family: 'Asul', sans-serif;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.firstP {
+    margin-top: 28px;
+    width: 87%;
+}
+
+.secondpic {
+    margin-top: 82px;
+    width: 85%;
+}
+
+.thirdpic {
+    margin-top: 82px;
+    width: 85%;
+}
+
+.lastP {
+    margin-top: 28px;
+    width: 87%;
+    margin-bottom: 61px;
+}
+
+
+.last {
+    font-family: 'Graduate', cursive;
+    color: white;
+}
+
+.onee {
+    width: 91%;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 39px;
+    margin-top: 168px;
+}
+
+.twoo {
+    width: 91%;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 39px;
+}
+
+.thhree {
+    width: 91%;
+    margin: auto;
+    background-color: black;
+}
+
+.onee h2 {
+    color: #9E0303;
+    padding-top: 12px;
+    padding-left: 14px;
+    padding-bottom: 11px;
+}
+
+.last img {
+    width: 100%;
+}
+
+.onnee {
+    font-size: 36px;
+    width: 93%;
+    margin: auto;
+    margin-top: 11px;
+}
+
+.oonnee {
+    width: 79%;
+    margin: auto;
+    margin-top: 21px;
+    padding-bottom: 35px;
+}
+
+.ttwwoo {
+    width: 96%;
+    margin: auto;
+    margin-top: 11px;
+    font-size: 36px;
+}
+
+.twwoo {
+    width: 82%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.AUF {
+    margin-left: 3%;
+    margin-top: 11px;
+    font-size: 36px;
+}
+
+.tthhrree {
+    width: 81%;
+    margin: auto;
+    margin-top: 32px;
+    padding-bottom: 65px;
+}
+
+.button {
+    width: 20%;
+    margin: auto;
+    border: 6px #9E0303 solid;
+}
+
+
+/* .button:hover {
+    border: 6px #700000 solid;
+    background-color: #4e0000;
+} */
+
+.inButton {
+    width: 85%;
+    margin: 14px 10px 10px 14px;
+    background-color: rgba(158, 3, 3, 0.80);
+    color: white;
+}
+
+.inButton p {
+    font-family: 'Graduate';
+    font-size: 92%;
+    padding: 7px 11px 11px 7px;
+}
+
+.button:hover .inButton{
+    background-color: #4e0000;
+    margin: auto;
+    padding: 14px 10px 10px 14px;
+}
