@@ -732,6 +732,7 @@ footer .vct-footer::after {
   .burger {
     display: inline-block;
     padding-left: 30px;
+    cursor: pointer;
   }
   .burger > img:hover {
     cursor: pointer;
